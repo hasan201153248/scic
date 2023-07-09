@@ -5,15 +5,20 @@ body{
 .text-primary{
   color:#FD6E0A;
 }
-.btn-primary{
-  border-radius: 5px;
-  background: #FD6E0A;
-  border: 0;
-  color:white;
-  font-size: 20px;
-  font-weight:700;
-  padding: 15px  35px;
-}
+
+  .btn-primary {
+    display: inline-block;
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 25px;
+    margin-top: 10px;
+  }
+  
+
 /* nav related styles */
 .section-title{
   color:#181818;
@@ -147,4 +152,46 @@ main section{
   font-weight: 700;
   
 }
+
+  .resume-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .resume-section {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .resume-part {
+    margin-bottom: 20px;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+  }
+  .resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight:700;
+    margin-top: 10px;
+  }
+  .resume-item-institute{
+    margin-bottom: 20px;
+    margin-top:0px;
+  }
+  .resume-item-institute, .resume-item-description{
+    color:#474747;
+  }
+  .resume-container hr{
+    margin: 30px;
+  }
+  .download-cv{
+    text-align:center;
+    margin-top:50px;
+  }
+  
+
 
