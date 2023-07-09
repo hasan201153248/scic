@@ -192,13 +192,56 @@ main section{
     text-align:center;
     margin-top:50px;
   }
-  footer{
+  
+  footer {
     display: flex;
-    background: #FFF8F3;
-    margin-top: 100;
-    padding: 130px 200px;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .footer-column {
+    flex-basis: 50%;
+    gap: 100px;
+  }
+  
+  .section-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  
+  .section-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .section-description {
+    color: #474747;
+    margin-top: 10px;
+  }
+  
+  .social-icons {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+  }
+  .social-links a{
+    margin-right: 25px;
+  }
+  .contact input[type="text"], .contact input[type="email"],
+  textarea{
+    display: block;
+    margin-bottom:25px;
+    padding: 18px 35px;
+    color: #474747;
+    border-radius: 5px;
+    background: wheat;
+    border:0 ;
   }
 
   
-
-
+  
