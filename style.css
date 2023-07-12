@@ -1,267 +1,234 @@
-/* common shared styles */
-body {
-  font-family: 'Open Sans', sans-serif;
+.body {
+  overflow-x: hidden;
 }
 
-.text-primary {
-  color: #FD6E0A;
+.section-1 {
+  background-color: #FFDDF7;
+  padding-bottom: 0;
+}
+.division1{
+
 }
 
-.btn-primary {
-  display: inline-block;
-  border-radius: 5px;
-  background: #FD6E0A;
-  border: 0;
+.div-1 {
+  display: flex;
+}
+
+.div-left{
+  margin-left: 150px;
+}
+
+.heading-1 {
+  font-size: 75px;
+  margin-top: 150px;
+}
+
+.paragraph {
+  color: gray;
+  margin-top: 15px;
+}
+.btn-1{
+
+}
+.div-right {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 25%;
+}
+.images{
+
+}
+.img-1{
+
+}
+.section-2{
+
+}
+.div-2{
+
+}
+.heading-2{
+
+}
+.paragraph{
+
+}
+.photos{
+
+}
+.photo-container{
+
+}
+.photo-1{
+
+}
+.photo-2{
+
+}
+.photo-3{
+
+}
+.img-2{
+
+}
+.section-3{
+
+}
+.div-3{
+
+}
+.div-left2{
+
+}
+.heading-3{
+
+}
+.div-right{
+
+}
+.photo-4{
+
+}
+.img-3{
+
+}
+.section-4{
+
+}
+.div-4{
+
+}
+.div-left3{
+
+}
+.photo-4{
+
+}
+.img-4{
+
+}
+.photo-5{
+
+}
+.img-5{
+
+}
+.photo-6{
+
+}
+.img-6{
+
+}
+.photo-7{
+
+}
+.img-7{
+  
+}
+
+
+
+
+
+.box {
+  background-color: #E55473;
   color: white;
-  font-size: 20px;
-  font-weight: 700;
-  padding: 10px 25px;
-  margin: 30px;
-}
-
-/* nav related styles */
-.section-title {
-  color: #181818;
-  text-align: center;
-  font-size: 35px;
-  font-weight: 700;
-}
-
-.section-description {
-  color: #474747;
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  margin: 0 200px;
-}
-
-.nav-title {
-  color: #181818;
-  font-size: 45px;
-  font-weight: 800;
-}
-
-nav > ul {
-  display: flex;
-  align-items: center;
-}
-
-nav li {
-  list-style: none;
-  margin-right: 50px;
-}
-
-nav a {
-  text-decoration: none;
-  color: #474747;
-}
-
-/* header related styles */
-.header {
-  background-color: #FFF8F3;
-  background-image: url('images.webp/header_bg.png'), url('images.webp/developer.png');
-  background-repeat: no-repeat;
-  background-position: bottom right, top left;
-  margin-bottom: 0;
-}
-
-.banner {
-  padding: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.banner-content {
-  max-width: 500px;
-}
-
-.banner-description {
-  padding-left: 50px;
-  margin-left: 15px;
-}
-
-.banner .profile-pic {
-  width: 350px;
-  height: auto;
-}
-
-.banner-greeting {
-  font-size: 35px;
-  color: #474747;
-  margin-bottom: 0;
-  margin-top: 10px;
-  padding-left: 50px;
-}
-
-.banner-title {
-  font-size: 85px;
-  font-style: normal;
-  font-weight: 700;
-  padding-left: 50px;
-  margin: 10px;
-}
-
-/* main section styles */
-/* about section styles */
-main {
-  max-width: 1140px;
-  text-align: center;
-  margin: 0 auto;
-}
-
-main section {
-  margin-top: 130px;
-}
-
-.about {
-  padding: 30px;
-  border-radius: 10px;
-  background: #FFF8F3;
-  margin: 30px;
-}
-
-.about-info-container {
-  display: flex;
-  justify-content: space-around;
-}
-
-.about-info {
-  text-align: center;
-}
-
-/* skills related styles */
-#what-i-do-description {
-  padding: 30px;
-}
-
-.skills-container {
-  display: flex;
-  gap: 24px;
-}
-
-.skill {
-  padding: 30px;
-  gap: 24px;
-  border-radius: 5px;
-  background: #FFF8F3;
-  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-}
-
-.skill-title {
-  color: #474747;
-  font-size: 25px;
-  font-weight: 700;
-  margin-top: 10px;
-}
-
-.skill-description {
-  color: #474747;
-}
-
-/* Resume Section styles */
-
-.resume-column-title {
-  color: #474747;
-  font-size: 30px;
-  font-weight: 700;
-}
-
-.resume-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.resume-section {
-  flex: 1;
-  margin-right: 20px;
-}
-
-.resume-part {
-  margin-bottom: 20px;
-}
-
-hr {
+  padding: 10px 20px;
   border: none;
-  border-top: 1px solid #ccc;
-  margin: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
 }
 
-.resume-item-title {
-  color: #474747;
-  font-size: 25px;
-  font-weight: 700;
-  margin-top: 10px;
+
+
+.img-1 {
+  max-width: 20%;
+  height: auto;
+  margin-bottom: 25px;
+  padding-bottom: 0;
+}
+.section-2{
+
 }
 
-.resume-item-description {
-  margin-bottom: 20px;
-  margin-top: 0px;
-  color: #474747;
+.white {
+  background: white;
+  padding-top: 200px;
 }
 
-.resume-container hr {
-  margin: 30px;
-}
-
-.download-cv {
+.feature {
+  font-size: 35px;
+  font-weight: bolder;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 90px;
 }
 
-footer {
+.new {
+  color: darkslategrey;
+  text-align: center;
+}
+
+.attempt {
+  background-color: white;
+}
+
+.photos {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  background-color: antiquewhite;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px;
 }
 
-.footer-column {
-  flex-basis: 50%;
-  gap: 100px;
+.photo-container {
+  display: flex;
 }
 
-.section-title {
-  color: #474747;
-  font-size: 25px;
-  font-weight: 700;
-}
-
-.section-content {
+.photo {
   display: flex;
   flex-direction: column;
-}
-
-.section-description {
-  color: #474747;
-  margin-top: 10px;
-}
-
-.social-icons {
-  display: flex;
   align-items: center;
+  justify-content: flex-end;
+  background-color: purple;
+  padding: 10px;
+  margin: 10px;
+  width: 320px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.photo-1 {
+  background-color: purple;
+}
+
+.photo-2 {
+  background-color: pink;
+}
+
+.photo-3 {
+  background-color: olive;
+}
+
+.photo img {
+  height: 80%;
+  width: 80%;
+}
+
+.photo-name {
   margin-top: 10px;
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px 10px;
 }
 
-.social-icons a {
-  margin-right: 10px;
+.c-block {
+  background-color: #FFDDF7;
+  padding-bottom: 0;
 }
 
-.social-links a {
-  margin-right: 25px;
-}
-
-.contact input[type="text"],
-.contact input[type="email"],
-textarea {
-  display: block;
-  margin-bottom: 25px;
-  padding: 18px 35px;
+.hpara2 {
+  font-size: 50px;
 }
